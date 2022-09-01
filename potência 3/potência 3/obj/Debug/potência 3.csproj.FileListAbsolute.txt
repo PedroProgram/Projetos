@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\potência 3\potência 3\bin\Debug\potência 3.exe.config
+C:\Users\pedri\source\repos\potência 3\potência 3\bin\Debug\potência 3.exe
+C:\Users\pedri\source\repos\potência 3\potência 3\bin\Debug\potência 3.pdb
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência 3.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência_3.Form1.resources
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência_3.Properties.Resources.resources
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência 3.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência 3.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência 3.exe
+C:\Users\pedri\source\repos\potência 3\potência 3\obj\Debug\potência 3.pdb

@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\bin\Debug\Fahrenheit em Celsius.exe.config
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\bin\Debug\Fahrenheit em Celsius.exe
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\bin\Debug\Fahrenheit em Celsius.pdb
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit em Celsius.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit em Celsius.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit_em_Celsius.Form1.resources
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit_em_Celsius.Properties.Resources.resources
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit em Celsius.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit em Celsius.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit em Celsius.exe
+C:\Users\pedri\source\repos\Fahrenheit em Celsius\Fahrenheit em Celsius\obj\Debug\Fahrenheit em Celsius.pdb

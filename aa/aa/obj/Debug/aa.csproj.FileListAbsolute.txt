@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\aa\aa\bin\Debug\aa.exe.config
+C:\Users\pedri\source\repos\aa\aa\bin\Debug\aa.exe
+C:\Users\pedri\source\repos\aa\aa\bin\Debug\aa.pdb
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.Form1.resources
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.Properties.Resources.resources
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.exe
+C:\Users\pedri\source\repos\aa\aa\obj\Debug\aa.pdb

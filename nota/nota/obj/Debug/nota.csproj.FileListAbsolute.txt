@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\nota\nota\bin\Debug\nota.exe.config
+C:\Users\pedri\source\repos\nota\nota\bin\Debug\nota.exe
+C:\Users\pedri\source\repos\nota\nota\bin\Debug\nota.pdb
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.Form1.resources
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.Properties.Resources.resources
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.exe
+C:\Users\pedri\source\repos\nota\nota\obj\Debug\nota.pdb

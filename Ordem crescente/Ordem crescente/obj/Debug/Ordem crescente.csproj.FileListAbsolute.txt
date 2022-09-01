@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\bin\Debug\Ordem crescente.exe.config
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\bin\Debug\Ordem crescente.exe
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\bin\Debug\Ordem crescente.pdb
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem crescente.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem crescente.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem_crescente.Form1.resources
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem_crescente.Properties.Resources.resources
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem crescente.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem crescente.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem crescente.exe
+C:\Users\pedri\source\repos\Ordem crescente\Ordem crescente\obj\Debug\Ordem crescente.pdb

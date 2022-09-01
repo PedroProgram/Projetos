@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\bin\Debug\Pular Mult 3.exe.config
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\bin\Debug\Pular Mult 3.exe
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\bin\Debug\Pular Mult 3.pdb
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular Mult 3.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular Mult 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular_Mult_3.Form1.resources
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular_Mult_3.Properties.Resources.resources
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular Mult 3.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular Mult 3.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular Mult 3.exe
+C:\Users\pedri\source\repos\Pular Mult 3\Pular Mult 3\obj\Debug\Pular Mult 3.pdb

@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\funcionário\funcionário\bin\Debug\funcionário.exe.config
+C:\Users\pedri\source\repos\funcionário\funcionário\bin\Debug\funcionário.exe
+C:\Users\pedri\source\repos\funcionário\funcionário\bin\Debug\funcionário.pdb
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.Form1.resources
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.Properties.Resources.resources
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.exe
+C:\Users\pedri\source\repos\funcionário\funcionário\obj\Debug\funcionário.pdb

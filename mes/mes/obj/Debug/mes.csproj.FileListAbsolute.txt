@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.Form1.resources
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.Properties.Resources.resources
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\mes\mes\bin\Debug\mes.exe.config
+C:\Users\pedri\source\repos\mes\mes\bin\Debug\mes.exe
+C:\Users\pedri\source\repos\mes\mes\bin\Debug\mes.pdb
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.exe
+C:\Users\pedri\source\repos\mes\mes\obj\Debug\mes.pdb

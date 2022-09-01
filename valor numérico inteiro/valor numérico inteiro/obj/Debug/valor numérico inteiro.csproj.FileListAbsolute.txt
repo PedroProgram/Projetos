@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\bin\Debug\valor numérico inteiro.exe.config
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\bin\Debug\valor numérico inteiro.exe
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\bin\Debug\valor numérico inteiro.pdb
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor numérico inteiro.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor numérico inteiro.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor_numérico_inteiro.Form1.resources
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor_numérico_inteiro.Properties.Resources.resources
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor numérico inteiro.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor numérico inteiro.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor numérico inteiro.exe
+C:\Users\pedri\source\repos\valor numérico inteiro\valor numérico inteiro\obj\Debug\valor numérico inteiro.pdb

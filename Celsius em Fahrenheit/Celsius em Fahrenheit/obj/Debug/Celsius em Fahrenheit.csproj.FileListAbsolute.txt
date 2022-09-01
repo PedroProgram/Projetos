@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\bin\Debug\Celsius em Fahrenheit.exe.config
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\bin\Debug\Celsius em Fahrenheit.exe
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\bin\Debug\Celsius em Fahrenheit.pdb
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius em Fahrenheit.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius em Fahrenheit.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius_em_Fahrenheit.Form1.resources
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius_em_Fahrenheit.Properties.Resources.resources
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius em Fahrenheit.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius em Fahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius em Fahrenheit.exe
+C:\Users\pedri\source\repos\Celsius em Fahrenheit\Celsius em Fahrenheit\obj\Debug\Celsius em Fahrenheit.pdb

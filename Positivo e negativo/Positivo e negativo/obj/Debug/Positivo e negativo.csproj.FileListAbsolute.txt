@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\bin\Debug\Positivo e negativo.exe.config
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\bin\Debug\Positivo e negativo.exe
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\bin\Debug\Positivo e negativo.pdb
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo e negativo.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo e negativo.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo_e_negativo.Form1.resources
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo_e_negativo.Properties.Resources.resources
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo e negativo.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo e negativo.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo e negativo.exe
+C:\Users\pedri\source\repos\Positivo e negativo\Positivo e negativo\obj\Debug\Positivo e negativo.pdb

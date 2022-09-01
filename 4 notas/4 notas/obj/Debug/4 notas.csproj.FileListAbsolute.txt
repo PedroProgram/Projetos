@@ -1,0 +1,11 @@
+C:\Users\pedri\source\repos\4 notas\4 notas\bin\Debug\4 notas.exe.config
+C:\Users\pedri\source\repos\4 notas\4 notas\bin\Debug\4 notas.exe
+C:\Users\pedri\source\repos\4 notas\4 notas\bin\Debug\4 notas.pdb
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\4 notas.csproj.AssemblyReference.cache
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\4 notas.csproj.SuggestedBindingRedirects.cache
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\_4_notas.Form1.resources
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\_4_notas.Properties.Resources.resources
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\4 notas.csproj.GenerateResource.cache
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\4 notas.csproj.CoreCompileInputs.cache
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\4 notas.exe
+C:\Users\pedri\source\repos\4 notas\4 notas\obj\Debug\4 notas.pdb
