@@ -10,8 +10,23 @@
     <AssemblyName>ProjetoPapelariaHumanas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,7 +47,23 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Correios, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Correios-Api.1.1.1\lib\portable-net45+win\Correios.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
@@ -54,6 +85,7 @@
     <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -65,102 +97,235 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassCargo.cs" />
-    <Compile Include="ClassCliente.cs" />
-    <Compile Include="ClassConexao.cs" />
-    <Compile Include="ClassFuncionario.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Classe\ClassCargo.cs" />
+    <Compile Include="Classe\ClassCategoria.cs" />
+    <Compile Include="Classe\ClassCliente.cs" />
+    <Compile Include="Classe\ClassConexao.cs" />
+    <Compile Include="Classe\ClassFornecedor.cs" />
+    <Compile Include="Classe\ClassFuncionario.cs" />
+    <Compile Include="Classe\ClassItensVenda.cs" />
+    <Compile Include="Classe\ClassMarca.cs" />
+    <Compile Include="Classe\ClassProduto.cs" />
+    <Compile Include="Classe\ClassVenda.cs" />
+    <Compile Include="Classe\ClassRelVenda.cs" />
+    <Compile Include="Relatorio\RelatorioVenda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Relatorio\RelatorioVenda.Designer.cs">
+      <DependentUpon>RelatorioVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsPrincipais\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsPrincipais\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCargocs.cs">
+    <Compile Include="FormNormal\FormCargo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCargocs.Designer.cs">
-      <DependentUpon>FormCargocs.cs</DependentUpon>
+    <Compile Include="FormNormal\FormCargo.Designer.cs">
+      <DependentUpon>FormCargo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCliente.cs">
+    <Compile Include="FormNormal\FormCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCliente.Designer.cs">
+    <Compile Include="FormNormal\FormCategoria.Designer.cs">
+      <DependentUpon>FormCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNormal\FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNormal\FormCliente.Designer.cs">
       <DependentUpon>FormCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormConsularFuncionario.cs">
+    <Compile Include="Consulta\FormConsultaFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormConsularFuncionario.Designer.cs">
-      <DependentUpon>FormConsularFuncionario.cs</DependentUpon>
+    <Compile Include="Consulta\FormConsultaFuncionario.Designer.cs">
+      <DependentUpon>FormConsultaFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormConsultaCliente.cs">
+    <Compile Include="Consulta\FormConsultaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormConsultaCliente.Designer.cs">
+    <Compile Include="Consulta\FormConsultaCategoria.Designer.cs">
+      <DependentUpon>FormConsultaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta\FormConsultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta\FormConsultaCliente.Designer.cs">
       <DependentUpon>FormConsultaCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormConsultarCargo.cs">
+    <Compile Include="Consulta\FormConsultaFornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormConsultarCargo.Designer.cs">
-      <DependentUpon>FormConsultarCargo.cs</DependentUpon>
+    <Compile Include="Consulta\FormConsultaFornecedor.Designer.cs">
+      <DependentUpon>FormConsultaFornecedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormFuncionario.cs">
+    <Compile Include="Consulta\FormConsultaMarca.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormFuncionario.Designer.cs">
+    <Compile Include="Consulta\FormConsultaMarca.Designer.cs">
+      <DependentUpon>FormConsultaMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta\FormConsultaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta\FormConsultaProduto.Designer.cs">
+      <DependentUpon>FormConsultaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta\FormConsultaCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta\FormConsultaCargo.Designer.cs">
+      <DependentUpon>FormConsultaCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNormal\FormFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNormal\FormFornecedor.Designer.cs">
+      <DependentUpon>FormFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNormal\FormFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNormal\FormFuncionario.Designer.cs">
       <DependentUpon>FormFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRelCargo.cs">
+    <Compile Include="FormsPrincipais\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRelCargo.Designer.cs">
-      <DependentUpon>FormRelCargo.cs</DependentUpon>
+    <Compile Include="FormsPrincipais\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRelcliente.cs">
+    <Compile Include="FormNormal\FormMarca.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRelcliente.Designer.cs">
-      <DependentUpon>FormRelcliente.cs</DependentUpon>
+    <Compile Include="FormNormal\FormMarca.Designer.cs">
+      <DependentUpon>FormMarca.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRelFuncionario.cs">
+    <Compile Include="FormNormal\FormProduto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRelFuncionario.Designer.cs">
-      <DependentUpon>FormRelFuncionario.cs</DependentUpon>
+    <Compile Include="FormNormal\FormProduto.Designer.cs">
+      <DependentUpon>FormProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNormal\FormVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNormal\FormVenda.Designer.cs">
+      <DependentUpon>FormVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioCargo.Designer.cs">
+      <DependentUpon>RelatorioCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\Relatoriocliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\Relatoriocliente.Designer.cs">
+      <DependentUpon>Relatoriocliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioFuncionario.Designer.cs">
+      <DependentUpon>RelatorioFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioMarca.Designer.cs">
+      <DependentUpon>RelatorioMarca.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorio\RelatorioCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioCategoria.Designer.cs">
+      <DependentUpon>RelatorioCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioFornecedor.Designer.cs">
+      <DependentUpon>RelatorioFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioProduto.Designer.cs">
+      <DependentUpon>RelatorioProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Relatorio\RelatorioVenda.resx">
+      <DependentUpon>RelatorioVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsPrincipais\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCargocs.resx">
-      <DependentUpon>FormCargocs.cs</DependentUpon>
+    <EmbeddedResource Include="FormNormal\FormCargo.resx">
+      <DependentUpon>FormCargo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCliente.resx">
+    <EmbeddedResource Include="FormNormal\FormCategoria.resx">
+      <DependentUpon>FormCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNormal\FormCliente.resx">
       <DependentUpon>FormCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormConsularFuncionario.resx">
-      <DependentUpon>FormConsularFuncionario.cs</DependentUpon>
+    <EmbeddedResource Include="Consulta\FormConsultaFuncionario.resx">
+      <DependentUpon>FormConsultaFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormConsultaCliente.resx">
+    <EmbeddedResource Include="Consulta\FormConsultaCategoria.resx">
+      <DependentUpon>FormConsultaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FormConsultaCliente.resx">
       <DependentUpon>FormConsultaCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormConsultarCargo.resx">
-      <DependentUpon>FormConsultarCargo.cs</DependentUpon>
+    <EmbeddedResource Include="Consulta\FormConsultaFornecedor.resx">
+      <DependentUpon>FormConsultaFornecedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormFuncionario.resx">
+    <EmbeddedResource Include="Consulta\FormConsultaMarca.resx">
+      <DependentUpon>FormConsultaMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FormConsultaProduto.resx">
+      <DependentUpon>FormConsultaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FormConsultaCargo.resx">
+      <DependentUpon>FormConsultaCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNormal\FormFornecedor.resx">
+      <DependentUpon>FormFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNormal\FormFuncionario.resx">
       <DependentUpon>FormFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRelCargo.resx">
-      <DependentUpon>FormRelCargo.cs</DependentUpon>
+    <EmbeddedResource Include="FormsPrincipais\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRelcliente.resx">
-      <DependentUpon>FormRelcliente.cs</DependentUpon>
+    <EmbeddedResource Include="FormNormal\FormMarca.resx">
+      <DependentUpon>FormMarca.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRelFuncionario.resx">
-      <DependentUpon>FormRelFuncionario.cs</DependentUpon>
+    <EmbeddedResource Include="FormNormal\FormProduto.resx">
+      <DependentUpon>FormProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNormal\FormVenda.resx">
+      <DependentUpon>FormVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\RelatorioCargo.resx">
+      <DependentUpon>RelatorioCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\Relatoriocliente.resx">
+      <DependentUpon>Relatoriocliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\RelatorioFuncionario.resx">
+      <DependentUpon>RelatorioFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\RelatorioMarca.resx">
+      <DependentUpon>RelatorioMarca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -171,13 +336,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Report1.rdlc" />
-    <EmbeddedResource Include="ReportCli.rdlc" />
-    <EmbeddedResource Include="ReportFuncionario.rdlc" />
+    <EmbeddedResource Include="Relatorio\RelatorioCategoria.resx">
+      <DependentUpon>RelatorioCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\RelatorioFornecedor.resx">
+      <DependentUpon>RelatorioFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\RelatorioProduto.resx">
+      <DependentUpon>RelatorioProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportVenda.rdlc" />
+    <EmbeddedResource Include="Report\ReportCargo.rdlc" />
+    <EmbeddedResource Include="Report\ReportCliente.rdlc" />
+    <EmbeddedResource Include="Report\ReportFuncionario.rdlc" />
+    <EmbeddedResource Include="Report\ReportProduto.rdlc" />
+    <EmbeddedResource Include="Report\ReportMarca.rdlc" />
+    <EmbeddedResource Include="Report\ReportCategoria.rdlc" />
+    <EmbeddedResource Include="Report\ReportFornecedor.rdlc" />
     <None Include="packages.config" />
-    <None Include="Properties\DataSources\ClassCargo.datasource" />
-    <None Include="Properties\DataSources\ClassCliente.datasource" />
-    <None Include="Properties\DataSources\ClassFuncionario.datasource" />
+    <None Include="Properties\DataSources\ClassCategoria.datasource" />
+    <None Include="Properties\DataSources\ClassFornecedor.datasource" />
+    <None Include="Properties\DataSources\ClassMarca.datasource" />
+    <None Include="Properties\DataSources\ClassProduto.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -190,6 +370,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
     <Content Include="SqlServerTypes\readme.htm" />
@@ -206,5 +398,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,7 @@ namespace ProjetoPapelariaHumanas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPrinciaal());
+            Application.Run(new FormLogin());
         }
     }
 }
